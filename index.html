@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kent Lexter Paciones — Python Developer specializing in Automation & AI Integration." />
+  <meta name="theme-color" content="#07070a" />
+  <title>Kent Lexter Paciones — Python Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-glow glow-a"></div>
+  <div class="background-glow glow-b"></div>
+  <div class="background-grid"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Kent Lexter Paciones home">KLP<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav" aria-label="Primary navigation">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content reveal">
+        <p class="eyebrow">PYTHON DEVELOPER · AUTOMATION · AI INTEGRATION</p>
+
+        <h1>Kent Lexter<br><span>Paciones.</span></h1>
+
+        <div class="hero-role">
+          <span class="role-line"></span>
+          <h2>Python Developer — Automation &amp; AI Integration</h2>
+        </div>
+
+        <p class="hero-description">
+          I build Python systems that connect AI to real business workflows.
+          I ship code that runs, not prototypes — from FastAPI services and
+          multi-provider LLM gateways to production automations.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects <span>↗</span></a>
+          <a href="mailto:kentlexterp@gmail.com" class="btn btn-secondary">Let's Talk</a>
+        </div>
+
+        <div class="social-links" aria-label="Social links">
+          <a href="https://github.com/kentlexterp-ct" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/kent-lexter-h-p-344711438" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.loom.com/share/84a76fe7f4fb4207aae0edebc9696970" target="_blank" rel="noreferrer">Loom</a>
+          <a href="https://www.fiverr.com/s/kXLDQYW" target="_blank" rel="noreferrer">Fiverr</a>
+        </div>
+
+        <div class="hero-meta">
+          <span>📍 Puerto Princesa City, Philippines</span>
+          <span>🎓 BS Civil Engineering — in progress</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="code-orbit">
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="orbit-dot dot-1"></div>
+          <div class="orbit-dot dot-2"></div>
+
+          <div class="code-card">
+            <div class="terminal-top">
+              <span></span><span></span><span></span>
+              <small>kent.py</small>
+            </div>
+
+            <pre><code><span class="code-purple">from</span> anyrouter <span class="code-purple">import</span> Router
+
+router = Router(
+    providers=[
+        <span class="code-green">"openai"</span>,
+        <span class="code-green">"anthropic"</span>,
+        <span class="code-green">"openrouter"</span>,
+        <span class="code-green">"ollama"</span>,
+    ],
+    fallback=<span class="code-green">True</span>,
+    streaming=<span class="code-green">True</span>
+)
+
+<span class="code-blue">await</span> router.<span class="code-yellow">run</span>()</code></pre>
+
+            <div class="code-footer">
+              <span><i></i> systems online</span>
+              <span>FastAPI · Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — ABOUT</p>
+        <h2>Built from <span>curiosity.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I’m a civil engineering student at Palawan State University and a
+            self-taught Python developer focused on automation, APIs, and AI/LLM integration.
+          </p>
+
+          <p>
+            My most recent project is <strong>anyrouter</strong>, a FastAPI gateway
+            that unifies OpenAI, Anthropic, OpenRouter, and Ollama behind one endpoint —
+            with streaming, tool calling, provider fallback, and error handling.
+          </p>
+
+          <p>
+            I also build automation inside GoHighLevel, including a live AI lead
+            classification workflow that turns inbound contacts into hot, warm, or cold leads.
+          </p>
+
+          <p>
+            I ship code that runs, not prototypes. When something breaks, I trace it
+            down to the line that crashed. Debugging a Windows kernel driver taught me
+            more about systems debugging than almost anything else I've built.
+          </p>
+
+          <div class="stats">
+            <div class="stat">
+              <strong>04</strong>
+              <span>Featured Projects</span>
+            </div>
+            <div class="stat">
+              <strong>4x</strong>
+              <span>LLM Providers</span>
+            </div>
+            <div class="stat">
+              <strong>∞</strong>
+              <span>Things to Build</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card reveal">
+          <div class="terminal-top">
+            <span></span><span></span><span></span>
+            <small>about-kent.json</small>
+          </div>
+          <pre><code>{
+  <span class="code-green">"name"</span>: <span class="code-orange">"Kent Lexter Paciones"</span>,
+  <span class="code-green">"focus"</span>: <span class="code-orange">"Python + AI"</span>,
+  <span class="code-green">"education"</span>: <span class="code-orange">"BS Civil Engineering"</span>,
+  <span class="code-green">"location"</span>: <span class="code-orange">"Philippines"</span>,
+  <span class="code-green">"mindset"</span>: <span class="code-orange">"ship what works"</span>
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 — STACK</p>
+        <h2>Tools I use to <span>build.</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon">{ }</div>
+          <h3>Python Engineering</h3>
+          <p>Backend services, scripting, async workflows, testing, and production-minded application logic.</p>
+          <div class="tags">
+            <span>Python</span><span>FastAPI</span><span>Async</span><span>pytest</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">AI</div>
+          <h3>AI &amp; LLM Integration</h3>
+          <p>Connecting models to useful systems with provider abstraction, tool calling, streaming, and fallback.</p>
+          <div class="tags">
+            <span>OpenAI</span><span>Anthropic</span><span>Ollama</span><span>OpenRouter</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">↯</div>
+          <h3>Automation</h3>
+          <p>Business workflow automation, webhooks, browser automation, extraction, and CRM integrations.</p>
+          <div class="tags">
+            <span>GoHighLevel</span><span>Playwright</span><span>Selenium</span><span>Webhooks</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">API</div>
+          <h3>APIs &amp; Data</h3>
+          <p>Building and integrating REST APIs, working with data stores, and connecting systems end-to-end.</p>
+          <div class="tags">
+            <span>REST</span><span>SQLite</span><span>Data Extraction</span><span>Git</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">C++</div>
+          <h3>Systems &amp; Debugging</h3>
+          <p>Low-level debugging experience from Windows kernel-mode development and system troubleshooting.</p>
+          <div class="tags">
+            <span>C++</span><span>Debugging</span><span>Windows</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">CAD</div>
+          <h3>Engineering Tools</h3>
+          <p>Technical tools from my civil engineering background and project work.</p>
+          <div class="tags">
+            <span>AutoCAD</span><span>SketchUp</span><span>3D Modeling</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 — PROJECTS</p>
+        <h2>Code that <span>actually runs.</span></h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured reveal">
+          <div class="project-image project-one">
+            <div class="image-overlay"></div>
+            <div class="project-image-content">
+              <span class="project-number">01</span>
+              <span class="project-type">PYTHON · FASTAPI · AI</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <p class="project-label">Featured — AI Infrastructure</p>
+            <h3>anyrouter — Multi-Provider AI Gateway</h3>
+            <p>
+              A FastAPI backend that unifies four AI providers behind one
+              OpenAI-compatible endpoint. Supports streaming, tool calling,
+              provider fallback, and error handling.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>FastAPI</span><span>Async</span><span>OpenAI</span><span>Anthropic</span><span>Ollama</span>
+            </div>
+            <a class="project-link" href="https://github.com/kentlexterp-ct/anyrouter" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image project-two">
+            <div class="project-image-content">
+              <span class="project-number">02</span>
+              <span class="project-type">GOHIGHLEVEL · PYTHON · AI</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <p class="project-label">Live Automation</p>
+            <h3>GHL AI Lead Classification Workflow</h3>
+            <p>
+              GoHighLevel contact trigger → Python webhook → AI classifies the
+              lead as hot, warm, or cold → tag applied automatically in GHL.
+            </p>
+            <div class="tags">
+              <span>GoHighLevel</span><span>Webhooks</span><span>Python</span><span>LLM</span>
+            </div>
+            <a class="project-link" href="https://www.loom.com/share/84a76fe7f4fb4207aae0edebc9696970" target="_blank" rel="noreferrer">Watch live demo ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image project-three">
+            <div class="project-image-content">
+              <span class="project-number">03</span>
+              <span class="project-type">C++ · WINDOWS · SYSTEMS</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <p class="project-label">Systems Debugging</p>
+            <h3>Windows Kernel Driver — Hardware Serial Interceptor</h3>
+            <p>
+              A C++ kernel-mode project involving the disk stack and hardware
+              serial response handling. It became a practical lesson in IRQL
+              discipline, memory safety, and debugging live systems without crashing them.
+            </p>
+            <div class="tags">
+              <span>C++</span><span>Kernel Mode</span><span>IRQL</span><span>Debugging</span>
+            </div>
+            <span class="project-note">Systems research project</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image project-four">
+            <div class="project-image-content">
+              <span class="project-number">04</span>
+              <span class="project-type">FASTAPI · SQLITE · AUTOMATION</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <p class="project-label">Workflow Automation</p>
+            <h3>Workflow Agent — Document Extraction &amp; Intelligent Routing</h3>
+            <p>
+              A FastAPI workflow service that accepts uploads and n8n webhooks,
+              extracts text from PDFs and text files, classifies invoices, receipts,
+              leads, and support tickets, then routes each document with a priority
+              and confidence score.
+            </p>
+            <div class="tags">
+              <span>FastAPI</span><span>Python</span><span>SQLite</span><span>n8n</span><span>pypdf</span><span>Docker</span>
+            </div>
+            <span class="project-note">Rule-based agent · API-first architecture</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-card reveal">
+        <p class="eyebrow">04 — CONTACT</p>
+        <h2>Need a system that <span>works?</span></h2>
+        <p>
+          Whether it’s an API, automation workflow, AI integration, or a stubborn
+          bug that refuses to die — I like solving hard problems and shipping working code.
+        </p>
+
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:kentlexterp@gmail.com">Email Me ↗</a>
+          <a class="btn btn-secondary" href="https://github.com/kentlexterp-ct" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn btn-secondary" href="https://www.fiverr.com/s/kXLDQYW" target="_blank" rel="noreferrer">Hire on Fiverr</a>
+        </div>
+
+        <div class="contact-info">
+          <a href="mailto:kentlexterp@gmail.com">kentlexterp@gmail.com</a>
+          <span>•</span>
+          <span>Puerto Princesa City, Philippines</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Kent Lexter Paciones. Built with Python mindset, HTML, CSS &amp; JavaScript.</p>
+    <div>
+      <a href="https://www.linkedin.com/in/kent-lexter-h-p-344711438" target="_blank" rel="noreferrer">LinkedIn</a>
+      <span> · </span>
+      <a href="https://github.com/kentlexterp-ct" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
